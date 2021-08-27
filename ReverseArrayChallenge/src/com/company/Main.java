@@ -8,7 +8,6 @@ public class Main {
 
         int [] array1 = {1 , 2 , 3 , 4 , 5};
         reverse(array1);
-        System.out.println();
         int [] array2 = {1 , 3 , 5 , 6 , 7 , 8};
         reverse(array2);
 
@@ -33,7 +32,7 @@ public class Main {
         System.out.print("Reversed array: ");
         for (int i : array)
             System.out.print(i + " ");
-        System.out.println();
+        System.out.println("\n");
 
             }
         }
