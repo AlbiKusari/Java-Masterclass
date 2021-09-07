@@ -48,7 +48,7 @@ public class Branch {
 
         for (int i = 0; i < customers.size(); i++){
             Customer checkedCustomer = customers.get(i);
-            if (checkedCustomer.getName().equals(customerName))
+            if (checkedCustomer.getName().equals(customerName)) // if (customers.get(i).getName().equals(customerName))
                 return checkedCustomer;
         }
 
